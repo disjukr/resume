@@ -4,6 +4,14 @@ JongChan Choi
  * e-mail: disjukr at naver.com
  * website: [0xABCDEF.com](http://0xabcdef.com/)
 
+
+Education
+---
+ * Seoul Visual Media High School 2010~2013
+ * [Software Maestro](http://www.swmaestro.kr/) 2012~2013
+ * [NHN NEXT](http://www.nhnnext.org/) 2013~
+
+
 Skill set
 ---
  * programming
