@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>0xABCDEF résumé</title>
+  </head>
+  <body>
+    <script src="./showdown/src/showdown.js"></script>
+    <script src="./showdown/src/extensions/github.js"></script>
+    <script>
+    var converter = new Showdown.converter({extensions: ['github']});
+    var req = new XMLHttpRequest();
+    req.onload = function () {
+      document.body.innerHTML = converter.makeHtml(this.responseText);
+    };
+    req.open('get', './README.md');
+    req.send();
+    </script>
+  </body>
+</html>
