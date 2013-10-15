@@ -24,7 +24,8 @@ Skill set
 Open Source
 ---
 ### [croquis.js](https://github.com/disjukr/croquis.js) 2012~
-javascript drawing tool library for web browser, using html5 canvas technology
+javascript drawing tool library for web browser,
+using [html5 canvas technology](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
 
 ### [CSON-js](https://github.com/disjukr/CSON-js) 2013~
 an implementation of [Cursive Script Object Notation](https://github.com/lifthrasiir/cson)
