@@ -42,8 +42,11 @@ using [html5 canvas technology](https://developer.mozilla.org/en-US/docs/HTML/Ca
 ### [CSON-js](https://github.com/disjukr/CSON-js) 2013~
 an implementation of [Cursive Script Object Notation](https://github.com/lifthrasiir/cson)
 
-### [Squircle](https://github.com/disjukr/Squircle) 2013~
+### [cursive](https://github.com/disjukr/cursive) 2013~
+CSON implementation for haxe
+
+### [Squircle](https://github.com/disjukr/Squircle) 2013
 web irc client for [ozinger network](http://ozinger.org/)
 
-### [Lisp321](https://github.com/disjukr/Lisp321) 2012~
+### [Lisp321](https://github.com/disjukr/Lisp321) 2012
 lisp dialect written in actionscript3.0
