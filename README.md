@@ -19,7 +19,7 @@ Skill set
  * image editing
 
 ### programming
- * programming language: actionscript(1, 2, 3), haxe(2, 3), javascript, typescript
+ * programming language: actionscript(1, 2, 3), haxe(2, 3), javascript, typescript, c++
  * shader language: agal, hxsl
  * i'm good at adobe's flash(also stage3d api) technology
 
