@@ -3,15 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title>0xABCDEF résumé</title>
+    <style>
+    body {
+      background-color: #0E0C0A;
+      color: #FFF5E7;
+      padding: 20px;
+      padding-bottom: 50px;
+    }
+    h1, h2, h3, li, p { font-family: helvetica, arial, sans-serif; }
+    h1 { font-size: 25px; }
+    h2 { font-size: 22px; }
+    h3 {
+      font-size: 17px;
+      margin-bottom: 5px;
+    }
+    li, p {
+      font-size: 13px;
+      font-weight: lighter;
+      margin: 2px;
+    }
+    ul { padding-left: 25px; }
+    p { margin-left: 20px; }
+    li { list-style-type: square; }
+    a {
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:link, a:visited {
+      color: #EE8B20;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    </style>
   </head>
   <body>
+    <image id="profile" src="https://gravatar.com/avatar/00f091701fb49f41504d7c15edc5de9d?s=170">
     <script src="./showdown/src/showdown.js"></script>
     <script src="./showdown/src/extensions/github.js"></script>
     <script>
     var converter = new Showdown.converter({extensions: ['github']});
     var req = new XMLHttpRequest();
     req.onload = function () {
-      document.body.innerHTML = converter.makeHtml(this.responseText);
+      document.body.innerHTML += converter.makeHtml(this.responseText);
     };
     req.open('get', './README.md');
     req.send();
