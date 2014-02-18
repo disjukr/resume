@@ -4,6 +4,7 @@ JongChan Choi
  * e-mail: disjukr at naver.com
  * website: [0xABCDEF.com](http://0xabcdef.com/)
 
+<!-- abcdef -->
 
 Education
 ---
@@ -11,6 +12,7 @@ Education
  * [Software Maestro](http://www.swmaestro.kr/) 2012~2013
  * [NHN NEXT](http://www.nhnnext.org/) 2013~
 
+<!-- abcdef -->
 
 Skill set
 ---
@@ -29,6 +31,7 @@ Skill set
 ### image editing
  * image editing tool: adobe photoshop
 
+<!-- abcdef -->
 
 Open Source
 ---

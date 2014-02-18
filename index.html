@@ -44,10 +44,32 @@
     <script>
     var converter = new Showdown.converter({extensions: ['github']});
     var req = new XMLHttpRequest();
-    req.onload = function () {
-      document.body.innerHTML += converter.makeHtml(this.responseText);
-    };
     req.open('get', './README.md');
+    req.onload = function () {
+      var profile = document.getElementById('profile');
+      var sections = converter.makeHtml(this.responseText).split('<!-- abcdef -->');
+      // wrap
+      sections = sections.map(function (section) {
+        var container = document.createElement('div');
+        container.innerHTML = section;
+        return container;
+      });
+      // styling
+      sections[0].style.display = 'inline-block';
+      sections[0].style.marginLeft = '10px';
+      sections[3].style.display = 'inline-block';
+      sections[3].style.marginTop = '50px';
+      // column
+      var leftColumn = document.createElement('div');
+      leftColumn.appendChild(profile);
+      for (var i = 0; i < 3; ++i)
+        leftColumn.appendChild(sections[i]);
+      leftColumn.style.float = 'left';
+      leftColumn.style.marginRight = '50px';
+      // append
+      document.body.appendChild(leftColumn);
+      document.body.appendChild(sections[3]);
+    };
     req.send();
     </script>
   </body>
