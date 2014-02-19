@@ -67,7 +67,14 @@
     <script>
     var converter = new Showdown.converter({extensions: ['github']});
     var req = new XMLHttpRequest();
-    req.open('get', './README.md');
+    var locale;
+    switch (navigator.browserLanguage || navigator.language) {
+    case 'ko': case 'ko-kr': case 'ko-KR':
+      locale = 'ko'; break;
+    default:
+      locale = ''; break;
+    }
+    req.open('get', './README' + (locale.length? '_' + locale : '') + '.md');
     req.onload = function () {
       var profile = document.getElementById('profile');
       var sections = converter.makeHtml(this.responseText).split('<!-- abcdef -->');
