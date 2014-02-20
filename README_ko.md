@@ -4,8 +4,6 @@
  * 이메일: disjukr at naver.com
  * 웹사이트: [0xABCDEF.com](http://0xabcdef.com/)
 
-<!-- abcdef -->
-
 학력사항
 ---
  * 서울영상고등학교 2010~2013

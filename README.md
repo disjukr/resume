@@ -4,8 +4,6 @@ JongChan Choi
  * e-mail: disjukr at naver.com
  * website: [0xABCDEF.com](http://0xabcdef.com/)
 
-<!-- abcdef -->
-
 Education
 ---
  * Seoul Visual Media High School 2010~2013
