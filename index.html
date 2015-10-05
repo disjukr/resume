@@ -1,101 +1,78 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>0xABCDEF résumé</title>
-    <style>
-    body {
-      background-color: #0E0C0A;
-      color: #FFF5E7;
-      padding: 20px;
-      padding-bottom: 50px;
-    }
-    h1, h2, h3, li, p { font-family: helvetica, arial, sans-serif; }
-    h1 { font-size: 25px; }
-    h2 { font-size: 22px; }
-    h3 {
-      font-size: 17px;
-      margin-bottom: 5px;
-    }
-    li, p {
-      font-size: 13px;
-      font-weight: lighter;
-      margin: 2px;
-    }
-    ul { padding-left: 25px; }
-    p { margin-left: 20px; }
-    li { list-style-type: square; }
-    a {
-      font-weight: bold;
-      text-decoration: none;
-    }
-    a:link, a:visited {
-      color: #EE8B20;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    #resume {
-      pointer-events: none;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      color: #fff;
-      opacity: 0.1;
-      font-size: 200px;
-      font-weight: bold;
-      font-family: helvetica, arial, sans-serif;
-    }
-    #fork-me {
-      position: absolute;
-      top: 0;
-      right: 0;
-      border: 0;
-    }
-    </style>
-  </head>
-  <body>
-    <p id="resume">résumé</p>
-    <a href="https://github.com/disjukr/resume">
-      <img id="fork-me"
-           src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"
-           alt="Fork me on GitHub">
-    </a>
-    <script src="./showdown/src/showdown.js"></script>
-    <script src="./showdown/src/extensions/github.js"></script>
-    <script>
-    var converter = new Showdown.converter({extensions: ['github']});
-    var req = new XMLHttpRequest();
-    var locale;
-    switch (navigator.browserLanguage || navigator.language) {
-    case 'ko': case 'ko-kr': case 'ko-KR':
-      locale = 'ko'; break;
-    default:
-      locale = ''; break;
-    }
-    req.open('get', './README' + (locale.length? '_' + locale : '') + '.md');
-    req.onload = function () {
-      var sections = converter.makeHtml(this.responseText).split('<!-- abcdef -->');
-      // wrap
-      sections = sections.map(function (section) {
-        var container = document.createElement('div');
-        container.innerHTML = section;
-        return container;
-      });
-      // styling
-      sections[2].style.display = 'inline-block';
-      sections[2].style.marginTop = '50px';
-      // column
-      var leftColumn = document.createElement('div');
-      for (var i = 0; i < 2; ++i)
-        leftColumn.appendChild(sections[i]);
-      leftColumn.style.float = 'left';
-      leftColumn.style.marginRight = '50px';
-      // append
-      document.body.appendChild(leftColumn);
-      document.body.appendChild(sections[2]);
-    };
-    req.send();
-    </script>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+</head>
+<body>
+<h1 id="jongchan-choi">JongChan Choi</h1>
+<ul>
+<li>phone: +82 10-6351-6406</li>
+<li>e-mail: <script type="text/javascript">
+<!--
+h='&#x63;&#104;&#x61;&#110;&#46;&#x6d;&#x6f;&#x65;';a='&#64;';n='&#106;&#x6f;&#110;&#x67;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#106;&#x6f;&#110;&#x67;&#32;&#x61;&#116;&#32;&#x63;&#104;&#x61;&#110;&#46;&#x6d;&#x6f;&#x65;'+'<\/'+'a'+'>');
+// -->
+</script><noscript>&#106;&#x6f;&#110;&#x67;&#32;&#x61;&#116;&#32;&#x63;&#104;&#x61;&#110;&#46;&#x6d;&#x6f;&#x65;&#32;&#40;&#106;&#x6f;&#110;&#x67;&#32;&#x61;&#116;&#32;&#x63;&#104;&#x61;&#110;&#32;&#100;&#x6f;&#116;&#32;&#x6d;&#x6f;&#x65;&#x29;</noscript></li>
+<li>website: <a href="http://0xabcdef.com/">0xABCDEF.com</a></li>
+</ul>
+<h2 id="skills">Skills</h2>
+<h3 id="programming-language">programming language</h3>
+<ul>
+<li>general: js(es3~es2015), actionscript(1~3), haxe</li>
+<li>shader: agal, hxsl</li>
+<li>web: html5, css3, stylus</li>
+</ul>
+<h3 id="tool">tool</h3>
+<ul>
+<li>text editor: sublime text</li>
+<li>vcs: git</li>
+<li>other: adobe photoshop, adobe flash, autodesk maya</li>
+</ul>
+<h2 id="education">Education</h2>
+<ol style="list-style-type: decimal">
+<li>Seoul Visual Media High School 2010~2013</li>
+<li><a href="http://www.swmaestro.kr/">Software Maestro</a> 2012~2013</li>
+<li><a href="http://www.nhnnext.org/">NHN NEXT</a> 2013~</li>
+</ol>
+<h2 id="employment">Employment</h2>
+<h3 id="synapsoft-2014"><a href="http://synapsoft.co.kr/">Synapsoft</a> 2014~</h3>
+<p>participated synap editor and naver office project. mainly implemented word document layouter and renderer.</p>
+<p><code>webpack</code> <code>babel</code> <code>react</code> <code>es2015</code> <code>html</code> <code>svg</code> <code>css</code></p>
+<h2 id="open-source">Open Source</h2>
+<h3 id="project">Project</h3>
+<h4 id="yaksok.js-2015"><a href="https://github.com/disjukr/yaksok.js">yaksok.js</a> 2015</h4>
+<p><a href="http://yaksok.org/">yaksok</a> compiler library</p>
+<h4 id="naheui-20142015"><a href="https://github.com/aheui/naheui">naheui</a> 2014~2015</h4>
+<p>the <a href="http://aheui.github.io/">aheui</a> implementation for node.js</p>
+<h4 id="tempath-20142015"><a href="https://github.com/disjukr/tempath">tempath</a> 2014~2015</h4>
+<p>template language for path data, which is the superset of SVG Path Data syntax</p>
+<h4 id="makise-2015"><a href="https://github.com/disjukr/makise">makise</a> 2015</h4>
+<p>pretty JSON schema definition language</p>
+<h4 id="croquispop-20122014"><a href="https://github.com/crosspop/Croquispop">Croquispop</a> 2012~2014</h4>
+<p>web based drawing tool using <a href="https://github.com/disjukr/croquis.js">croquis.js</a></p>
+<h4 id="croquis.js-20132014"><a href="https://github.com/disjukr/croquis.js">croquis.js</a> 2013~2014</h4>
+<p>javascript drawing tool library for web browser, using <a href="https://developer.mozilla.org/en-US/docs/HTML/Canvas">html5 canvas technology</a></p>
+<h4 id="cson-js-2013"><a href="https://github.com/disjukr/CSON-js">CSON-js</a> 2013</h4>
+<p>an implementation of <a href="https://github.com/lifthrasiir/cson">Cursive Script Object Notation</a></p>
+<h3 id="contribution">Contribution</h3>
+<h4 id="stephomisculptgl"><a href="https://github.com/stephomi/sculptgl">stephomi/sculptgl</a></h4>
+<ul>
+<li><a href="https://github.com/stephomi/sculptgl/pull/4">Add support for wacom tablet pen pressure</a></li>
+<li><a href="https://github.com/stephomi/sculptgl/pull/13">Paint on reflection material</a></li>
+<li><a href="https://github.com/stephomi/sculptgl/pull/15">Export model as ply format</a></li>
+</ul>
+<h4 id="webpackenhanced-resolve"><a href="https://github.com/webpack/enhanced-resolve">webpack/enhanced-resolve</a></h4>
+<ul>
+<li><a href="https://github.com/webpack/enhanced-resolve/pull/21">normalize filenames to nfc when readdir</a></li>
+</ul>
+<h4 id="servorust-cssparser"><a href="https://github.com/servo/rust-cssparser">servo/rust-cssparser</a></h4>
+<ul>
+<li><a href="https://github.com/servo/rust-cssparser/pull/80">Parse 8, 4 digits hex notations</a></li>
+</ul>
+</body>
 </html>

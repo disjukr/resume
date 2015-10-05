@@ -1,56 +1,75 @@
 JongChan Choi
 ===
- * phone: +82 10-6351-6406
- * e-mail: disjukr at naver.com
- * website: [0xABCDEF.com](http://0xabcdef.com/)
+* phone: +82 10-6351-6406
+* e-mail: [jong at chan.moe](mailto:jong@chan.moe)
+* website: [0xABCDEF.com](http://0xabcdef.com/)
+
+
+Skills
+---
+### programming language
+* general: js(es3~es2015), actionscript(1~3), haxe
+* shader: agal, hxsl
+* web: html5, css3, stylus
+
+### tool
+* text editor: sublime text
+* vcs: git
+* other: adobe photoshop, adobe flash, autodesk maya
+
 
 Education
 ---
- * Seoul Visual Media High School 2010~2013
- * [Software Maestro](http://www.swmaestro.kr/) 2012~2013
- * [NHN NEXT](http://www.nhnnext.org/) 2013~
+1. Seoul Visual Media High School 2010~2013
+2. [Software Maestro](http://www.swmaestro.kr/) 2012~2013
+3. [NHN NEXT](http://www.nhnnext.org/) 2013~
 
-<!-- abcdef -->
 
-Skill set
+Employment
 ---
- * programming
- * 3d modeling
- * image editing
+### [Synapsoft](http://synapsoft.co.kr/) 2014~
+participated synap editor and naver office project.
+mainly implemented word document layouter and renderer.
 
-### programming
- * programming language: actionscript(1, 2, 3), haxe(2, 3), javascript, typescript, c++
- * shader language: agal, hxsl
- * i'm good at adobe's flash(also stage3d api) technology
+`webpack` `babel` `react` `es2015` `html` `svg` `css`
 
-### 3d modeling
- * 3d modeling tool: autodesk maya
-
-### image editing
- * image editing tool: adobe photoshop
-
-<!-- abcdef -->
 
 Open Source
 ---
-### [Croquispop](https://github.com/crosspop/Croquispop) 2012~
+### Project
+
+#### [yaksok.js](https://github.com/disjukr/yaksok.js) 2015
+[yaksok](http://yaksok.org/) compiler library
+
+#### [naheui](https://github.com/aheui/naheui) 2014~2015
+the [aheui](http://aheui.github.io/) implementation for node.js
+
+#### [tempath](https://github.com/disjukr/tempath) 2014~2015
+template language for path data, which is the superset of SVG Path Data syntax
+
+#### [makise](https://github.com/disjukr/makise) 2015
+pretty JSON schema definition language
+
+#### [Croquispop](https://github.com/crosspop/Croquispop) 2012~2014
 web based drawing tool using [croquis.js](https://github.com/disjukr/croquis.js)
 
-### [croquis.js](https://github.com/disjukr/croquis.js) 2013~
+#### [croquis.js](https://github.com/disjukr/croquis.js) 2013~2014
 javascript drawing tool library for web browser,
 using [html5 canvas technology](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
 
-### [Winterboard](https://github.com/disjukr/winterboard) 2014~
-Super Simple Drawing Tool that using [croquis.js](https://github.com/disjukr/croquis.js)
-
-### [CSON-js](https://github.com/disjukr/CSON-js) 2013
+#### [CSON-js](https://github.com/disjukr/CSON-js) 2013
 an implementation of [Cursive Script Object Notation](https://github.com/lifthrasiir/cson)
 
-### [cursive](https://github.com/disjukr/cursive) 2013
-CSON implementation for haxe
 
-### [Squircle](https://github.com/disjukr/Squircle) 2013
-web irc client for [ozinger network](http://ozinger.org/)
+### Contribution
 
-### [Lisp321](https://github.com/disjukr/Lisp321) 2012
-lisp dialect written in actionscript3.0
+#### [stephomi/sculptgl](https://github.com/stephomi/sculptgl)
+* [Add support for wacom tablet pen pressure](https://github.com/stephomi/sculptgl/pull/4)
+* [Paint on reflection material](https://github.com/stephomi/sculptgl/pull/13)
+* [Export model as ply format](https://github.com/stephomi/sculptgl/pull/15)
+
+#### [webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)
+* [normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)
+
+#### [servo/rust-cssparser](https://github.com/servo/rust-cssparser)
+* [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)

@@ -1,0 +1,65 @@
+body {
+    margin: 0 auto;
+    width: 500pt;
+    outline: 1px solid black;
+    padding: 100pt 30pt;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+h1 { font-size: 25pt; }
+h2 {
+    margin-top: 50pt;
+    padding-left: 3pt;
+    font-size: 20pt;
+}
+h3 {
+    padding-left: 6pt;
+    font-size: 17pt;
+}
+h4 {
+    padding-left: 9pt;
+    font-size: 14pt;
+}
+h5, h6 {
+    padding-left: 12pt;
+    font-size: 12pt;
+}
+p, li {
+    padding-left: 15pt;
+    font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif;
+    font-size: 12pt;
+}
+
+ul, ol { padding-left: 15pt; }
+ul>li, ol>li { list-style: none; }
+ul>li::before, ol>li::before {
+    text-align: right;
+    font-size: 10pt;
+}
+ul>li::before { content: '- '; }
+ol { counter-reset: item; }
+ol>li { counter-increment: item; }
+ol>li::before { content: counter(item) '. '; }
+
+ol>li[value]::before { content: attr(value) '. '; }
+
+code {
+    padding: 2pt 5pt;
+    font-size: 10pt;
+    font-family: Consolas, monaco, monospace;
+    color: #E9F2FF;
+    background-color: #314592;
+    border-radius: 3pt;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    transition: color ease 0.3s;
+}
+a:link { color: #00B4FF; }
+a:link:hover { color: #0027FF; }
+a:visited { color: #122AAD; }
+a:hover { text-decoration: underline; }
