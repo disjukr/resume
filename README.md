@@ -1,21 +1,21 @@
 JongChan Choi
 ===
-* phone: +82 10-6351-6406
-* e-mail: [jong at chan.moe](mailto:jong@chan.moe)
-* website: [0xABCDEF.com](http://0xabcdef.com/)
+- phone: +82 10-6351-6406
+- e-mail: [jong at chan.moe](mailto:jong@chan.moe)
+- website: [0xABCDEF.com](http://0xabcdef.com/)
 
 
 Skills
 ---
 ### programming language
-* general: js(es3~es2015), actionscript(1~3), haxe
-* shader: agal, hxsl
-* web: html5, css3, stylus
+- general: js(es3~es2015), actionscript(1~3), haxe
+- shader: agal, hxsl
+- web: html5, css3, stylus
 
 ### tool
-* text editor: sublime text
-* vcs: git
-* other: adobe photoshop, adobe flash, autodesk maya
+- text editor: sublime text
+- vcs: git
+- other: adobe photoshop, adobe flash, autodesk maya
 
 
 Education
@@ -32,6 +32,15 @@ participated synap editor and naver office project.
 mainly implemented word document layouter and renderer.
 
 `webpack` `babel` `react` `es2015` `html` `svg` `css`
+
+
+Prize and Awards
+---
+### [D2 Fest 2013](http://d2fest.kr/2013/prize-winners.html)
+participation award
+
+### [MS Imagine Cup 2015 Korea Finals](https://www.imaginecup.com/Team/Index/83194)
+[won at the innovation category](https://www.imaso.co.kr/news/article_view.php?article_idx=20150313144852)
 
 
 Open Source
@@ -64,12 +73,12 @@ an implementation of [Cursive Script Object Notation](https://github.com/lifthra
 ### Contribution
 
 #### [stephomi/sculptgl](https://github.com/stephomi/sculptgl)
-* [Add support for wacom tablet pen pressure](https://github.com/stephomi/sculptgl/pull/4)
-* [Paint on reflection material](https://github.com/stephomi/sculptgl/pull/13)
-* [Export model as ply format](https://github.com/stephomi/sculptgl/pull/15)
+- [Add support for wacom tablet pen pressure](https://github.com/stephomi/sculptgl/pull/4)
+- [Paint on reflection material](https://github.com/stephomi/sculptgl/pull/13)
+- [Export model as ply format](https://github.com/stephomi/sculptgl/pull/15)
 
 #### [webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)
-* [normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)
+- [normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)
 
 #### [servo/rust-cssparser](https://github.com/servo/rust-cssparser)
-* [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)
+- [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)
