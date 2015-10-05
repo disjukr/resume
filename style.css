@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,600);
+
 body {
     margin: 0 auto;
     width: 500pt;
@@ -6,7 +8,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
 }
 h1 { font-size: 25pt; }
 h2 {
@@ -20,6 +23,8 @@ h3 {
 }
 h4 {
     padding-left: 9pt;
+    margin-top: 15pt;
+    margin-bottom: 10pt;
     font-size: 14pt;
 }
 h5, h6 {
@@ -27,8 +32,10 @@ h5, h6 {
     font-size: 12pt;
 }
 p, li {
+    margin: 5pt 0;
     padding-left: 15pt;
-    font-family: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 12pt;
 }
 
@@ -48,14 +55,14 @@ ol>li[value]::before { content: attr(value) '. '; }
 code {
     padding: 2pt 5pt;
     font-size: 10pt;
-    font-family: Consolas, monaco, monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     color: #E9F2FF;
     background-color: #314592;
     border-radius: 3pt;
 }
 
 a {
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
     transition: color ease 0.3s;
 }
