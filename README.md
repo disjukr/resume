@@ -41,7 +41,7 @@ Prize and Awards
 participation award
 
 ### [MS Imagine Cup 2015 Korea Finals](https://www.imaginecup.com/Team/Index/83194)
-[won at the innovation category](https://www.imaso.co.kr/news/article_view.php?article_idx=20150313144852)
+[won at the innovation category](http://www.msn.com/ko-kr/news/techandscience/ms-%ED%95%99%EC%83%9D-%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-%EC%9D%B4%EB%A7%A4%EC%A7%84%EC%BB%B5-%ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C-%EC%84%A0%EB%B0%9C/ar-AA9IuTw)
 
 
 Open Source
