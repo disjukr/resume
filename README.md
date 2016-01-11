@@ -30,6 +30,7 @@ Employment
 ### [Synapsoft](http://synapsoft.co.kr/) 2014~
 participated synap editor and naver office project.
 mainly implemented word document layouter and renderer.
+maintained word document editor.
 
 `webpack` `babel` `react` `es2015` `html` `svg` `css`
 
@@ -47,7 +48,7 @@ Open Source
 ---
 ### Project
 
-#### [yaksok.js](https://github.com/disjukr/yaksok.js) 2015
+#### [yaksok.js](https://github.com/disjukr/yaksok.js) 2015~2016
 [yaksok](http://yaksok.org/) compiler library
 
 #### [naheui](https://github.com/aheui/naheui) 2014~2015
@@ -82,3 +83,7 @@ an implementation of [Cursive Script Object Notation](https://github.com/lifthra
 
 #### [servo/rust-cssparser](https://github.com/servo/rust-cssparser)
 - [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)
+
+#### [bcoe/yargs](https://github.com/bcoe/yargs)
+- [Add korean translation](https://github.com/bcoe/yargs/pull/296)
+- [Fix cjk width problem on usage table](https://github.com/bcoe/yargs/pull/297)
