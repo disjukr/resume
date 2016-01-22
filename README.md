@@ -87,3 +87,7 @@ an implementation of [Cursive Script Object Notation](https://github.com/lifthra
 #### [bcoe/yargs](https://github.com/bcoe/yargs)
 - [Add korean translation](https://github.com/bcoe/yargs/pull/296)
 - [Fix cjk width problem on usage table](https://github.com/bcoe/yargs/pull/297)
+
+#### typo fix
+- facebook/graphql [make json correct](https://github.com/facebook/graphql/pull/14)
+- whatwg/fetch [add a missing space](https://github.com/whatwg/fetch/pull/192)
