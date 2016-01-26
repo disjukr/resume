@@ -73,6 +73,12 @@ an implementation of [Cursive Script Object Notation](https://github.com/lifthra
 
 ### Contribution
 
+#### [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)
+- [[brainfuck/ko-kr][brainfuck/en] Add korean translation of brainfuck](https://github.com/adambard/learnxinyminutes-docs/pull/363)
+
+#### [haxenme/nme](https://github.com/haxenme/nme)
+- [Modified `project.nmml` on stage3d sample](https://github.com/haxenme/nme/pull/61)
+
 #### [stephomi/sculptgl](https://github.com/stephomi/sculptgl)
 - [Add support for wacom tablet pen pressure](https://github.com/stephomi/sculptgl/pull/4)
 - [Paint on reflection material](https://github.com/stephomi/sculptgl/pull/13)
