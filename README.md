@@ -97,3 +97,4 @@ an implementation of [Cursive Script Object Notation](https://github.com/lifthra
 #### typo fix
 - facebook/graphql [make json correct](https://github.com/facebook/graphql/pull/14)
 - whatwg/fetch [add a missing space](https://github.com/whatwg/fetch/pull/192)
+- evanw/glslx [fix link](https://github.com/evanw/glslx/pull/4)
