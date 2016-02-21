@@ -90,9 +90,9 @@ an implementation of [Cursive Script Object Notation](https://github.com/lifthra
 #### [servo/rust-cssparser](https://github.com/servo/rust-cssparser)
 - [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)
 
-#### [bcoe/yargs](https://github.com/bcoe/yargs)
-- [Add korean translation](https://github.com/bcoe/yargs/pull/296)
-- [Fix cjk width problem on usage table](https://github.com/bcoe/yargs/pull/297)
+#### [yargs/yargs](https://github.com/yargs/yargs)
+- [Add korean translation](https://github.com/yargs/yargs/pull/296)
+- [Fix cjk width problem on usage table](https://github.com/yargs/yargs/pull/297)
 
 #### typo fix
 - facebook/graphql [make json correct](https://github.com/facebook/graphql/pull/14)
