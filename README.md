@@ -87,7 +87,7 @@ Open Source
 
     template language for path data, which is the superset of SVG Path Data syntax
 
-- [makise](https://github.com/disjukr/makise) 2015
+- [makise](https://github.com/disjukr/makise) 2015~2016
 
     pretty JSON schema definition language
 
