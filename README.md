@@ -114,8 +114,9 @@ Open Source
 
 ### Contribution
 
+<!-- 일관성 없는 pandoc의 동작을 우회하기 위해 항목 하나짜리는 p 태그로 묶어주고 있음... -->
 #### [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)
-- [[brainfuck/ko-kr][brainfuck/en] Add korean translation of brainfuck](https://github.com/adambard/learnxinyminutes-docs/pull/363)
+- <p>[[brainfuck/ko-kr][brainfuck/en] Add korean translation of brainfuck](https://github.com/adambard/learnxinyminutes-docs/pull/363)</p>
 
 #### [stephomi/sculptgl](https://github.com/stephomi/sculptgl)
 - [Add support for wacom tablet pen pressure](https://github.com/stephomi/sculptgl/pull/4)
@@ -125,10 +126,10 @@ Open Source
 - [Export model as ply format](https://github.com/stephomi/sculptgl/pull/15)
 
 #### [webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)
-- [normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)
+- <p>[normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)</p>
 
 #### [servo/rust-cssparser](https://github.com/servo/rust-cssparser)
-- [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)
+- <p>[Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)</p>
 
 #### [yargs/yargs](https://github.com/yargs/yargs)
 - [Add korean translation](https://github.com/yargs/yargs/pull/296)
@@ -138,7 +139,7 @@ Open Source
 - [More yargs translations needed](https://github.com/yargs/yargs/issues/649)
 
 #### [fuse-box/fuse-box](https://github.com/fuse-box/fuse-box)
-- [normalize filename](https://github.com/fuse-box/fuse-box/pull/344)
+- <p>[normalize filename](https://github.com/fuse-box/fuse-box/pull/344)</p>
 
 #### typo fix
 - facebook/graphql [make json correct](https://github.com/facebook/graphql/pull/14)
