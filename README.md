@@ -10,7 +10,7 @@ JongChan Choi
 Skills
 ---
 ### programming language
-- js(es3~es2016)
+- js(es3~es2017)
 
 - actionscript(1~3)
 
@@ -44,7 +44,20 @@ maintained word document editor.
 <code class="tag">css</code>
 
 ### [Spoqa](http://www.spoqa.com/) 2016~
-programmer
+- [dodo point mid 2016 landing page](https://www.dodopoint.com/)
+
+- dodo point store app v4.0 frontend
+
+- several frontend jobs
+
+<code class="tag">python</code>
+<code class="tag">jinja</code>
+<code class="tag">webpack</code>
+<code class="tag">babel</code>
+<code class="tag">react</code>
+<code class="tag">es2017</code>
+<code class="tag">html</code>
+<code class="tag">scss</code>
 
 
 Prize and Awards
@@ -102,7 +115,7 @@ Open Source
 ### Contribution
 
 #### [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)
-- <p>[[brainfuck/ko-kr][brainfuck/en] Add korean translation of brainfuck](https://github.com/adambard/learnxinyminutes-docs/pull/363)</p>
+- [[brainfuck/ko-kr][brainfuck/en] Add korean translation of brainfuck](https://github.com/adambard/learnxinyminutes-docs/pull/363)
 
 #### [stephomi/sculptgl](https://github.com/stephomi/sculptgl)
 - [Add support for wacom tablet pen pressure](https://github.com/stephomi/sculptgl/pull/4)
@@ -112,15 +125,20 @@ Open Source
 - [Export model as ply format](https://github.com/stephomi/sculptgl/pull/15)
 
 #### [webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)
-- <p>[normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)</p>
+- [normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)
 
 #### [servo/rust-cssparser](https://github.com/servo/rust-cssparser)
-- <p>[Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)</p>
+- [Parse 8, 4 digits hex notations](https://github.com/servo/rust-cssparser/pull/80)
 
 #### [yargs/yargs](https://github.com/yargs/yargs)
 - [Add korean translation](https://github.com/yargs/yargs/pull/296)
 
 - [Fix cjk width problem on usage table](https://github.com/yargs/yargs/pull/297)
+
+- [More yargs translations needed](https://github.com/yargs/yargs/issues/649)
+
+#### [fuse-box/fuse-box](https://github.com/fuse-box/fuse-box)
+- [normalize filename](https://github.com/fuse-box/fuse-box/pull/344)
 
 #### typo fix
 - facebook/graphql [make json correct](https://github.com/facebook/graphql/pull/14)
@@ -132,3 +150,5 @@ Open Source
 - PistonDevelopers/dyon [Fixed issue link](https://github.com/PistonDevelopers/dyon/pull/246)
 
 - haxenme/nme [Modified `project.nmml` on stage3d sample](https://github.com/haxenme/nme/pull/61)
+
+- fuse-box/fuse-box [fix doc typo](https://github.com/fuse-box/fuse-box/pull/314)
