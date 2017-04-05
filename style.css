@@ -7,7 +7,13 @@ body {
     padding: 100pt 30pt;
 }
 
-h1, h2, h3, h4, h5, h6 {
+summary {
+    transition: background 0.3s;
+}
+summary:hover {
+    background-color: rgba(233, 242, 255, 0.5);
+}
+h1, h2, h3, h4, h5, h6, summary {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
 }
@@ -21,7 +27,7 @@ h3 {
     padding-left: 6pt;
     font-size: 17pt;
 }
-h4 {
+h4, summary {
     padding-left: 9pt;
     margin-top: 15pt;
     margin-bottom: 10pt;
@@ -58,14 +64,14 @@ code {
     padding: 0 2pt;
     font-family: 'Source Sans Pro', sans-serif;
     color: #314592;
-    background-color: #E9F2FF;
+    background-color: #e6f0ff;
 }
 
 code.tag {
     padding: 2pt 5pt;
     font-size: 10pt;
-    color: #E9F2FF;
-    background-color: #314592;
+    color: #e6f0ff;
+    background-color: #2d7aa7;
     border-radius: 3pt;
 }
 
@@ -74,7 +80,7 @@ a {
     text-decoration: none;
     transition: color ease 0.3s;
 }
-a:link { color: #00B4FF; }
-a:link:hover { color: #0027FF; }
-a:visited { color: #122AAD; }
+a:link { color: #4cadde; }
+a:link:hover { filter: hue-rotate(-30deg); }
+a:visited { color: #678fce; }
 a:hover { text-decoration: underline; }

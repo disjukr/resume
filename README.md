@@ -74,9 +74,11 @@ participation award
 
 Open Source
 ---
-### Project
+### Own Project
 
-#### Graphics
+<details>
+<summary>Graphics</summary>
+
 - [Croquispop](https://github.com/crosspop/Croquispop) 2012~2014
 
     web based drawing tool using [croquis.js](https://github.com/disjukr/croquis.js)
@@ -86,7 +88,10 @@ Open Source
     javascript drawing tool library for web browser,
     using [html5 canvas technology](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
 
-#### Language
+</details>
+
+<details>
+<summary>Language</summary>
 
 - [yaksok.js](https://github.com/disjukr/yaksok.js) 2015~2016
 
@@ -112,8 +117,9 @@ Open Source
 
     an implementation of [Cursive Script Object Notation](https://github.com/lifthrasiir/cson)
 
-### Contribution
+</details>
 
+### Contribution
 <!-- 일관성 없는 pandoc의 동작을 우회하기 위해 항목 하나짜리는 p 태그로 묶어주고 있음... -->
 #### [adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)
 - <p>[[brainfuck/ko-kr][brainfuck/en] Add korean translation of brainfuck](https://github.com/adambard/learnxinyminutes-docs/pull/363)</p>
@@ -141,7 +147,9 @@ Open Source
 #### [fuse-box/fuse-box](https://github.com/fuse-box/fuse-box)
 - <p>[normalize filename](https://github.com/fuse-box/fuse-box/pull/344)</p>
 
-#### typo fix
+<details>
+<summary>trivial</summary>
+
 - facebook/graphql [make json correct](https://github.com/facebook/graphql/pull/14)
 
 - whatwg/fetch [add a missing space](https://github.com/whatwg/fetch/pull/192)
@@ -153,3 +161,5 @@ Open Source
 - haxenme/nme [Modified `project.nmml` on stage3d sample](https://github.com/haxenme/nme/pull/61)
 
 - fuse-box/fuse-box [fix doc typo](https://github.com/fuse-box/fuse-box/pull/314)
+
+</details>
