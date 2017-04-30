@@ -48,10 +48,13 @@ maintained word document editor.
 
 - dodo point store app v4.0 frontend
 
+- dodo manager frontend
+
 - several frontend jobs
 
 <code class="tag">python</code>
 <code class="tag">jinja</code>
+<code class="tag">flask</code>
 <code class="tag">webpack</code>
 <code class="tag">babel</code>
 <code class="tag">react</code>
@@ -86,7 +89,7 @@ Open Source
 - [croquis.js](https://github.com/disjukr/croquis.js) 2013~2014
 
     javascript drawing tool library for web browser,
-    using [html5 canvas technology](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
+    using [html5 canvas](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
 
 </details>
 
@@ -97,7 +100,7 @@ Open Source
 
     [yaksok](http://yaksok.org/) compiler library
 
-- [naheui](https://github.com/aheui/naheui) 2014~2015
+- [naheui](https://github.com/aheui/naheui) 2014~2017
 
     the [aheui](http://aheui.github.io/) implementation for node.js
 
@@ -116,6 +119,15 @@ Open Source
 - [CSON-js](https://github.com/disjukr/CSON-js) 2013
 
     an implementation of [Cursive Script Object Notation](https://github.com/lifthrasiir/cson)
+
+</details>
+
+<details>
+<summary>Miscellaneous</summary>
+
+- [just-news](https://github.com/disjukr/just-news) 2014~2017
+
+    web browser userscript for cleaning news site
 
 </details>
 
