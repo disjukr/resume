@@ -1,3 +1,9 @@
+---
+header-includes:
+    <title>JongChan Choi - résumé</title>
+    <script src="./index.js"></script>
+---
+
 JongChan Choi
 ===
 - phone: +82 10-6351-6406
