@@ -65,6 +65,7 @@ maintained word document editor.
 <code class="tag">babel</code>
 <code class="tag">react</code>
 <code class="tag">redux</code>
+<code class="tag">next.js</code>
 <code class="tag">es2017</code>
 <code class="tag">html</code>
 <code class="tag">scss</code>
