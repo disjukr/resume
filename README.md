@@ -65,6 +65,7 @@ maintained word document editor.
 <code class="tag">babel</code>
 <code class="tag">react</code>
 <code class="tag">redux</code>
+<code class="tag">flow</code>
 <code class="tag">next.js</code>
 <code class="tag">es2017</code>
 <code class="tag">html</code>
@@ -181,5 +182,9 @@ Open Source
 - haxenme/nme [Modified `project.nmml` on stage3d sample](https://github.com/haxenme/nme/pull/61)
 
 - fuse-box/fuse-box [fix doc typo](https://github.com/fuse-box/fuse-box/pull/314)
+
+- nodejs/node [doc: fix typos in n-api.md](https://github.com/nodejs/node/pull/13323)
+
+    [node v8.1.0 release note](https://nodejs.org/en/blog/release/v8.1.0/)
 
 </details>

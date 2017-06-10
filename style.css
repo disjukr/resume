@@ -53,6 +53,7 @@ ul>li>p:first-child::before, ol>li>p:first-child::before {
     text-align: right;
     font-size: 10pt;
 }
+ul>li>p:not(:first-child)::before, ol>li>p:not(:first-child)::before { content: '\00a0\00a0'; }
 ul>li>p:first-child::before { content: '- '; }
 ol { counter-reset: item; }
 ol>li { counter-increment: item; }
