@@ -37,7 +37,7 @@ Employment
 ### [Synapsoft](http://synapsoft.co.kr/) 2014~2016
 participated synap editor and naver office project.
 
-mainly implemented word document layouter and renderer.
+mainly implemented word document layouter and renderer from scratch.
 
 maintained word document editor.
 
@@ -137,6 +137,10 @@ Open Source
 - [just-news](https://github.com/disjukr/just-news) 2014~2017
 
     web browser userscript for cleaning news site
+
+- [psdw](https://github.com/disjukr/psdw) 2014
+
+    simple javascript photoshop document(psd) writer
 
 </details>
 
