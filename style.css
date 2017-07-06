@@ -63,6 +63,7 @@ ol>li[value]>p:first-child::before { content: attr(value) '. '; }
 
 code {
     padding: 0 2pt;
+    line-height: 25px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #314592;
     background-color: #e6f0ff;

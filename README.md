@@ -41,7 +41,17 @@ mainly implemented word document layouter and renderer from scratch.
 
 maintained word document editor.
 
+<code class="tag">ie8</code>
+<code class="tag">contenteditable</code>
+<code class="tag">jsp</code>
+<code class="tag">flash</code>
+<code class="tag">jison</code>
+<code class="tag">jindojs</code>
+<code class="tag">jquery</code>
+<code class="tag">gulp</code>
+<code class="tag">browserify</code>
 <code class="tag">webpack</code>
+<code class="tag">electron</code>
 <code class="tag">babel</code>
 <code class="tag">react</code>
 <code class="tag">es2015</code>
@@ -58,14 +68,19 @@ maintained word document editor.
 
 - several frontend jobs
 
-<code class="tag">python</code>
+<code class="tag">ie8</code>
+<code class="tag">windows xp chrome</code>
+<code class="tag">ios safari</code>
+<code class="tag">jquery</code>
 <code class="tag">jinja</code>
+<code class="tag">python</code>
 <code class="tag">flask</code>
 <code class="tag">webpack</code>
 <code class="tag">babel</code>
 <code class="tag">react</code>
 <code class="tag">redux</code>
 <code class="tag">flow</code>
+<code class="tag">typescript</code>
 <code class="tag">next.js</code>
 <code class="tag">es2017</code>
 <code class="tag">html</code>
