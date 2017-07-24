@@ -13,14 +13,10 @@ JongChan Choi
 - website: [0xABCDEF.com](http://0xabcdef.com/)
 
 
-Skills
+TL;DR
 ---
-### programming language
-- js(es3~es2017)
-
-- actionscript(1~3)
-
-- haxe
+I'm quite experienced javascript programmer.<br>
+love graphics and programming language.
 
 
 Education
@@ -156,6 +152,10 @@ Open Source
 - [psdw](https://github.com/disjukr/psdw) 2014
 
     simple javascript photoshop document(psd) writer
+
+- [Tetris](https://github.com/disjukr/Tetris) 2013
+
+    cli tetris game written in cpp
 
 </details>
 
