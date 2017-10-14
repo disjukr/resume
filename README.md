@@ -78,6 +78,7 @@ maintained word document editor.
 <code class="tag">flow</code>
 <code class="tag">typescript</code>
 <code class="tag">next.js</code>
+<code class="tag">redis</code>
 <code class="tag">es2017</code>
 <code class="tag">html</code>
 <code class="tag">scss</code>
@@ -123,6 +124,9 @@ Open Source
 - [naheui](https://github.com/aheui/naheui) 2014~2017
 
     the [aheui](http://aheui.github.io/) implementation for node.js
+
+- [avis](https://github.com/aheui/avis) 2014~2017
+    well made [aheui](http://aheui.github.io/) visual editor
 
 - [tempath](https://github.com/disjukr/tempath) 2014~2015
 
