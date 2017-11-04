@@ -25,12 +25,12 @@ Education
 
 2. [Software Maestro](http://www.swmaestro.kr/) 2012~2013
 
-3. [NHN NEXT](http://www.nhnnext.org/) 2013~
+3. [NHN NEXT](http://www.nhnnext.org/) 2013~2014
 
 
 Employment
 ---
-### [Synapsoft](http://synapsoft.co.kr/) 2014~2016
+### [Synapsoft](http://synapsoft.co.kr/) 2014-06 ~ 2016-06
 participated synap editor and naver office project.
 
 mainly implemented word document layouter and renderer from scratch.
@@ -55,7 +55,7 @@ maintained word document editor.
 <code class="tag">svg</code>
 <code class="tag">css</code>
 
-### [Spoqa](http://www.spoqa.com/) 2016~
+### [Spoqa](http://www.spoqa.com/) 2016-06 ~ current
 - [dodo point mid 2016 landing page](https://www.dodopoint.com/)
 
 - dodo point store app v4.0 frontend
@@ -87,13 +87,19 @@ maintained word document editor.
 Prize and Awards
 ---
 ### [D2 Fest 2013](http://d2fest.kr/2013/prize-winners.html)
-participation award
+2013-09-28
+
+encouragement prize
 
 ### [MS Imagine Cup 2015 Korea Finals](https://imagine.microsoft.com/en-us/Team/Index/aea4c4ac-5f45-46f5-b25d-1219775e9ab1)
+2015-03-13
+
 [won at the innovation category](http://www.msn.com/ko-kr/news/techandscience/ms-%ED%95%99%EC%83%9D-%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80-%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-%EC%9D%B4%EB%A7%A4%EC%A7%84%EC%BB%B5-%ED%95%9C%EA%B5%AD%EB%8C%80%ED%91%9C-%EC%84%A0%EB%B0%9C/ar-AA9IuTw)
 
 ### [D2 Fest 2015](http://d2campusfest.kr/2015/)
-[participation award](https://github.com/D2CAMPUS-FEST/2015#yaksokjs--장려상)
+2016-03-19
+
+[encouragement prize](https://github.com/D2CAMPUS-FEST/2015#yaksokjs--장려상)
 
 
 Open Source
@@ -103,11 +109,11 @@ Open Source
 <details>
 <summary>Graphics</summary>
 
-- [Croquispop](https://github.com/crosspop/Croquispop) 2012~2014
+- [Croquispop](https://github.com/crosspop/Croquispop) 2012 ~ 2014
 
     web based drawing tool using [croquis.js](https://github.com/disjukr/croquis.js)
 
-- [croquis.js](https://github.com/disjukr/croquis.js) 2013~2014
+- [croquis.js](https://github.com/disjukr/croquis.js) 2013 ~ 2014
 
     javascript drawing tool library for web browser,
     using [html5 canvas](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
@@ -117,22 +123,22 @@ Open Source
 <details>
 <summary>Language</summary>
 
-- [yaksok.js](https://github.com/disjukr/yaksok.js) 2015~2016
+- [yaksok.js](https://github.com/disjukr/yaksok.js) 2015 ~ 2016
 
     [yaksok](http://yaksok.org/) compiler library
 
-- [naheui](https://github.com/aheui/naheui) 2014~2017
+- [naheui](https://github.com/aheui/naheui) 2014 ~ 2017
 
     the [aheui](http://aheui.github.io/) implementation for node.js
 
-- [avis](https://github.com/aheui/avis) 2014~2017
+- [avis](https://github.com/aheui/avis) 2014 ~ 2017
     well made [aheui](http://aheui.github.io/) visual editor
 
-- [tempath](https://github.com/disjukr/tempath) 2014~2015
+- [tempath](https://github.com/disjukr/tempath) 2014 ~ 2015
 
     template language for path data, which is the superset of SVG Path Data syntax
 
-- [makise](https://github.com/disjukr/makise) 2015~2016
+- [makise](https://github.com/disjukr/makise) 2015 ~ 2016
 
     pretty JSON schema definition language
 
@@ -149,7 +155,7 @@ Open Source
 <details>
 <summary>Miscellaneous</summary>
 
-- [just-news](https://github.com/disjukr/just-news) 2014~2017
+- [just-news](https://github.com/disjukr/just-news) 2014 ~ 2017
 
     web browser userscript for cleaning news site
 
@@ -160,6 +166,10 @@ Open Source
 - [Tetris](https://github.com/disjukr/Tetris) 2013
 
     cli tetris game written in cpp
+
+- [aeiou](https://github.com/spoqa/aeiou) 2017
+
+    i18n scripts <https://spoqa.github.io/2017/09/26/aeiou-tutorial.html>
 
 </details>
 
@@ -187,6 +197,8 @@ Open Source
 - [Fix cjk width problem on usage table](https://github.com/yargs/yargs/pull/297)
 
 - [More yargs translations needed](https://github.com/yargs/yargs/issues/649)
+
+- [#976 add ko translation](https://github.com/yargs/yargs/pull/977)
 
 #### [fuse-box/fuse-box](https://github.com/fuse-box/fuse-box)
 - <p>[normalize filename](https://github.com/fuse-box/fuse-box/pull/344)</p>
