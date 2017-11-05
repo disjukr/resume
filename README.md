@@ -8,7 +8,7 @@ JongChan Choi
 ===
 - phone: +82 10-6351-6406
 
-- e-mail: [jong at chan.moe](mailto:jong@chan.moe)
+- e-mail: [jong@chan.moe](mailto:jong@chan.moe)
 
 - website: [0xABCDEF.com](http://0xabcdef.com/)
 
