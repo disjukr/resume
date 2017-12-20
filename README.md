@@ -203,6 +203,9 @@ Open Source
 #### [fuse-box/fuse-box](https://github.com/fuse-box/fuse-box)
 - <p>[normalize filename](https://github.com/fuse-box/fuse-box/pull/344)</p>
 
+#### [parcel-bundler/parcel](https://github.com/parcel-bundler/parcel)
+- <p>[Normalize filenames to nfc for hfs+](https://github.com/parcel-bundler/parcel/pull/322)</p>
+
 <details>
 <summary>trivial</summary>
 
