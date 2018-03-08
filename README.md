@@ -55,7 +55,7 @@ maintained word document editor.
 <code class="tag">svg</code>
 <code class="tag">css</code>
 
-### [Spoqa](http://www.spoqa.com/) 2016-06 ~ current
+### [Spoqa](http://www.spoqa.com/) 2016-06 ~ 2018-01
 - [dodo point mid 2016 landing page](https://www.dodopoint.com/)
 
 - dodo point store app v4.0 frontend
@@ -83,6 +83,13 @@ maintained word document editor.
 <code class="tag">html</code>
 <code class="tag">scss</code>
 
+
+### [Devsisters](http://www.devsisters.com/) 2018-03 ~ current
+₍₍(ง˘ω˘)ว⁾⁾
+
+<code class="tag">react</code>
+<code class="tag">typescript</code>
+<code class="tag">parcel</code>
 
 Prize and Awards
 ---
@@ -117,6 +124,10 @@ Open Source
 
     javascript drawing tool library for web browser,
     using [html5 canvas](https://developer.mozilla.org/en-US/docs/HTML/Canvas)
+
+- [adaptive-thresholding](https://github.com/disjukr/adaptive-thresholding) 2018
+
+    adaptive thresholding implementation in rust
 
 </details>
 
