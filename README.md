@@ -89,7 +89,7 @@ maintained word document editor.
 
 <code class="tag">react</code>
 <code class="tag">typescript</code>
-<code class="tag">parcel</code>
+<code class="tag">webpack</code>
 
 Prize and Awards
 ---
@@ -195,6 +195,8 @@ Open Source
 - [Paint on reflection material](https://github.com/stephomi/sculptgl/pull/13)
 
 - [Export model as ply format](https://github.com/stephomi/sculptgl/pull/15)
+
+- [Update korean translation](https://github.com/stephomi/sculptgl/pull/63)
 
 #### [webpack/enhanced-resolve](https://github.com/webpack/enhanced-resolve)
 - <p>[normalize filenames to nfc when readdir](https://github.com/webpack/enhanced-resolve/pull/21)</p>
